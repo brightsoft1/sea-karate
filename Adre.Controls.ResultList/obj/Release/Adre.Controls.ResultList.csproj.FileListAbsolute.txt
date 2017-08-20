@@ -1,0 +1,7 @@
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\bin\Release\Adre.Controls.ResultList.dll
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\bin\Release\Adre.Controls.ResultList.pdb
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Release\Adre.Controls.ResultList.csprojResolveAssemblyReference.cache
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Release\Adre.Controls.ResultList.Properties.Resources.resources
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Release\Adre.Controls.ResultList.csproj.GenerateResource.Cache
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Release\Adre.Controls.ResultList.dll
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Release\Adre.Controls.ResultList.pdb

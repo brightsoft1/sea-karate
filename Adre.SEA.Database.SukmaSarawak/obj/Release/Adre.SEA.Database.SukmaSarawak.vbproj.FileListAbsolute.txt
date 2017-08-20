@@ -1,0 +1,14 @@
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\bin\Release\Adre.SEA.Database.SukmaSarawak.dll.config
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\bin\Release\Adre.SEA.Database.SukmaSarawak.dll
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\bin\Release\Adre.SEA.Database.SukmaSarawak.pdb
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\bin\Release\Adre.SEA.Database.SukmaSarawak.xml
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\bin\Release\EntityFramework.dll
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\bin\Release\EntityFramework.SqlServer.dll
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\bin\Release\EntityFramework.xml
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\bin\Release\EntityFramework.SqlServer.xml
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\obj\Release\Adre.SEA.Database.SukmaSarawak.vbprojResolveAssemblyReference.cache
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\obj\Release\Adre.SEA.Database.SukmaSarawak.Resources.resources
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\obj\Release\Adre.SEA.Database.SukmaSarawak.vbproj.GenerateResource.Cache
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\obj\Release\Adre.SEA.Database.SukmaSarawak.dll
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\obj\Release\Adre.SEA.Database.SukmaSarawak.xml
+C:\Mine\Repos\sea-aquatics-swimming\Adre.SEA.Database.SukmaSarawak\obj\Release\Adre.SEA.Database.SukmaSarawak.pdb

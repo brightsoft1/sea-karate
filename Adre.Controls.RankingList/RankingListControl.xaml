@@ -1,0 +1,80 @@
+﻿<UserControl x:Class="Adre.Controls.RankingList.RankingListControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Adre.Controls.RankingList"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="1280" Loaded="RankingListControl_OnLoaded">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="15"></Setter>
+                <Setter Property="FontWeight" Value="Bold"></Setter>
+                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            </Style>
+            <Style TargetType="ComboBox">
+                <Setter Property="Margin" Value="0,0,10,0"></Setter>
+                <Setter Property="FontSize" Value="14"></Setter>
+                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="FontSize" Value="14"></Setter>
+                <Setter Property="Padding" Value="5"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0, 0, 0, 10">
+            <Label>Event:</Label>
+            <ComboBox Width="300" ItemsSource="{Binding Events}" SelectedItem="{Binding SelectedEvent}" />
+            <Label>Group:</Label>
+            <ComboBox Width="100" ItemsSource="{Binding MatchGroupTypes}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedMatchGroupType}" />
+            <Button Click="ButtonRoundRobinReportClick">Round Robin Report</Button>
+            <Button Click="OnMedalTallyReportClick" Margin="10,0,0,0" >Medal Tally Report</Button>
+            <Button Click="OnRecountClick" Margin="10,0,0,0" >Recount</Button>
+            <Button Click="OnSaveButtonClick" Margin="10,0,0,0" >Save</Button>
+        </StackPanel>
+        
+        <telerik:RadGridView Grid.Row="1" DataContext="{Binding DataContext}" ItemsSource="{Binding Items}" 
+                             RowIndicatorVisibility="Collapsed" ShowGroupPanel="True" AreRowDetailsFrozen="True"
+                             IsFilteringAllowed="False"
+                             Margin="0,0,0,0" AutoGenerateColumns="False" CanUserInsertRows="False" CanUserDeleteRows="False">
+            <telerik:RadGridView.Columns>
+                <telerik:GridViewDataColumn Header="Event" Width="150" DataMemberBinding="{Binding Event.Name}" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="Gender" Width="60" HeaderTextAlignment="Center" TextAlignment="Center" DataMemberBinding="{Binding Event.Gender}" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="Contingents" Width="200" DataMemberBinding="{Binding ContingentName}" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="Group" Width="80" DataMemberBinding="{Binding Contingent.Group}" IsReadOnly="True" TextAlignment="Center" HeaderTextAlignment="Center"/>
+                <telerik:GridViewDataColumn Header="Play" Width="80" DataMemberBinding="{Binding Play}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="Won" Width="80" DataMemberBinding="{Binding Win}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="Lost" Width="80" DataMemberBinding="{Binding Lose}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="Ties" Width="80" DataMemberBinding="{Binding Tie}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="GF" Width="80" DataMemberBinding="{Binding GF}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="GA" Width="80" DataMemberBinding="{Binding GA}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="GD" Width="80" DataMemberBinding="{Binding GD}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="Points" Width="80" DataMemberBinding="{Binding Point}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True"/>
+                <telerik:GridViewDataColumn Header="Ranking" Width="80" DataMemberBinding="{Binding No}" IsReadOnly="False"  TextAlignment="Center" HeaderTextAlignment="Center"/>
+                <telerik:GridViewColumn Header="Medal" Width="100">
+                    <telerik:GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding SelectedMedal}"></TextBlock>
+                        </DataTemplate>
+                    </telerik:GridViewColumn.CellTemplate>
+                    <telerik:GridViewColumn.CellEditTemplate>
+                        <DataTemplate>
+                            <ComboBox SelectedIndex="0" ItemsSource="{Binding MedalList}" SelectedItem="{Binding SelectedMedal}" />
+                        </DataTemplate>
+                    </telerik:GridViewColumn.CellEditTemplate>
+                </telerik:GridViewColumn>
+            </telerik:RadGridView.Columns>
+        </telerik:RadGridView>
+    </Grid>
+</UserControl>

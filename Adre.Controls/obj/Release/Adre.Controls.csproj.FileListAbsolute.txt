@@ -1,0 +1,5 @@
+C:\Mine\Repos\sea-muay\Adre.Controls\bin\Release\Adre.Controls.dll
+C:\Mine\Repos\sea-muay\Adre.Controls\bin\Release\Adre.Controls.pdb
+C:\Mine\Repos\sea-muay\Adre.Controls\obj\Release\Adre.Controls.csprojResolveAssemblyReference.cache
+C:\Mine\Repos\sea-muay\Adre.Controls\obj\Release\Adre.Controls.dll
+C:\Mine\Repos\sea-muay\Adre.Controls\obj\Release\Adre.Controls.pdb

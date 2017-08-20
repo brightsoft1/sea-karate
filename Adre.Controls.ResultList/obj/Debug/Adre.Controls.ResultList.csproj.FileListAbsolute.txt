@@ -1,0 +1,14 @@
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\bin\Debug\Adre.Controls.ResultList.dll
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\bin\Debug\Adre.Controls.ResultList.pdb
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.Properties.Resources.resources
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.csproj.GenerateResource.Cache
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.dll
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.pdb
+C:\Mine\Repos\sea-muay\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.csprojResolveAssemblyReference.cache
+C:\Mine\Repos\sea-karate\Adre.Controls.ResultList\bin\Debug\Adre.Controls.ResultList.dll
+C:\Mine\Repos\sea-karate\Adre.Controls.ResultList\bin\Debug\Adre.Controls.ResultList.pdb
+C:\Mine\Repos\sea-karate\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.Properties.Resources.resources
+C:\Mine\Repos\sea-karate\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.csproj.GenerateResource.Cache
+C:\Mine\Repos\sea-karate\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.dll
+C:\Mine\Repos\sea-karate\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.pdb
+C:\Mine\Repos\sea-karate\Adre.Controls.ResultList\obj\Debug\Adre.Controls.ResultList.csprojResolveAssemblyReference.cache

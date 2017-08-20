@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Adre.SEA.Importer.MainControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Adre.SEA.Importer"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1280">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Click="ButtonImportClick" FontSize="20" FontWeight="Bold" Height="150" Width="400">Import</Button>
+            <Button Click="ButtonClearClick" Margin="10,0,0,0" FontSize="20" FontWeight="Bold" Height="150" Width="400">Clear DB</Button>
+        </StackPanel>
+        <Label Grid.Row="1" Content="{Binding Status}" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="sqlDataSource2.ParameterValues" xml:space="preserve">
+    <value>{"@eventID":"2201"}</value>
+  </metadata>
+  <metadata name="sqlDataSource2.QueryDesignerState" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DM xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Telerik.Reporting.Design.QueryDesigner"&gt;&lt;Es&gt;&lt;E z:Id="i1"&gt;&lt;MBN&gt;match&lt;/MBN&gt;&lt;MBP z:Id="i2" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i1" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i3" i:type="P"&gt;&lt;MBN&gt;matchID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i4" i:type="P"&gt;&lt;MBN&gt;datetime&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i5" i:type="P"&gt;&lt;MBN&gt;matchNo&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i6" i:type="P"&gt;&lt;MBN&gt;eventID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i7" i:type="P"&gt;&lt;MBN&gt;phaseID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i8" i:type="P"&gt;&lt;MBN&gt;venueID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i9" i:type="P"&gt;&lt;MBN&gt;arena&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i10" i:type="P"&gt;&lt;MBN&gt;contingentAID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i11" i:type="P"&gt;&lt;MBN&gt;contingentBID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i12" i:type="P"&gt;&lt;MBN&gt;teamAID1&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i13" i:type="P"&gt;&lt;MBN&gt;teamAID2&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i14" i:type="P"&gt;&lt;MBN&gt;teamAID3&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i15" i:type="P"&gt;&lt;MBN&gt;teamBID1&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i16" i:type="P"&gt;&lt;MBN&gt;teamBID2&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i17" i:type="P"&gt;&lt;MBN&gt;teamBID3&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER /&gt;&lt;/E&gt;&lt;E z:Id="i18"&gt;&lt;MBN&gt;athlete&lt;/MBN&gt;&lt;MBP z:Id="i19" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i18" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i20" i:type="P"&gt;&lt;MBN&gt;athleteID&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i21" i:type="P"&gt;&lt;MBN&gt;aFullName&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i22" i:type="P"&gt;&lt;MBN&gt;aFamilyName&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i23" i:type="P"&gt;&lt;MBN&gt;aGivenName&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i24" i:type="P"&gt;&lt;MBN&gt;aPreferredName&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i25" i:type="P"&gt;&lt;MBN&gt;aDOB&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i26" i:type="P"&gt;&lt;MBN&gt;aContingentID&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i27" i:type="P"&gt;&lt;MBN&gt;aIDType&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i28" i:type="P"&gt;&lt;MBN&gt;aIDNumber&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i29" i:type="P"&gt;&lt;MBN&gt;aHeight&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i30" i:type="P"&gt;&lt;MBN&gt;aWeight&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i31" i:type="P"&gt;&lt;MBN&gt;genderID&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i32" i:type="P"&gt;&lt;MBN&gt;bibNo&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i33"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C i:nil="true" /&gt;&lt;/_items&gt;&lt;_size&gt;0&lt;/_size&gt;&lt;_version&gt;5&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i18" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;R z:Id="i34"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i20" /&gt;&lt;CPP z:Ref="i12" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;4&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i18" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;E z:Id="i35"&gt;&lt;MBN&gt;event&lt;/MBN&gt;&lt;MBP z:Id="i36" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i35" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i37" i:type="P"&gt;&lt;MBN&gt;eventID&lt;/MBN&gt;&lt;MBP z:Ref="i35" /&gt;&lt;PA&gt;eventeventID&lt;/PA&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i38" i:type="P"&gt;&lt;MBN&gt;eventName&lt;/MBN&gt;&lt;MBP z:Ref="i35" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i39" i:type="P"&gt;&lt;MBN&gt;eventCode&lt;/MBN&gt;&lt;MBP z:Ref="i35" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i40" i:type="P"&gt;&lt;MBN&gt;eventGender&lt;/MBN&gt;&lt;MBP z:Ref="i35" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i41"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i37" /&gt;&lt;CPP z:Ref="i6" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;3&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i35" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;E z:Id="i42"&gt;&lt;MBN&gt;phase&lt;/MBN&gt;&lt;MBP z:Id="i43" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i42" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i44" i:type="P"&gt;&lt;MBN&gt;phaseID&lt;/MBN&gt;&lt;MBP z:Ref="i42" /&gt;&lt;PA&gt;phasephaseID&lt;/PA&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i45" i:type="P"&gt;&lt;MBN&gt;phaseName&lt;/MBN&gt;&lt;MBP z:Ref="i42" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i46"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i44" /&gt;&lt;CPP z:Ref="i7" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;5&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i42" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;E z:Id="i47"&gt;&lt;MBN&gt;contingent&lt;/MBN&gt;&lt;MBP z:Id="i48" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i47" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i49" i:type="P"&gt;&lt;MBN&gt;contingentID&lt;/MBN&gt;&lt;MBP z:Ref="i47" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i50" i:type="P"&gt;&lt;MBN&gt;contingentName&lt;/MBN&gt;&lt;MBP z:Ref="i47" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i51" i:type="P"&gt;&lt;MBN&gt;contingentCode&lt;/MBN&gt;&lt;MBP z:Ref="i47" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i52" i:type="P"&gt;&lt;MBN&gt;isActive&lt;/MBN&gt;&lt;MBP z:Ref="i47" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i53"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i49" /&gt;&lt;CPP z:Ref="i26" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;5&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i47" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i18" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;E z:Id="i54"&gt;&lt;MBN&gt;venue&lt;/MBN&gt;&lt;MBP z:Id="i55" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i54" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i56" i:type="P"&gt;&lt;MBN&gt;venueID&lt;/MBN&gt;&lt;MBP z:Ref="i54" /&gt;&lt;PA&gt;venuevenueID&lt;/PA&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i57" i:type="P"&gt;&lt;MBN&gt;venueName&lt;/MBN&gt;&lt;MBP z:Ref="i54" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i58" i:type="P"&gt;&lt;MBN&gt;sportName&lt;/MBN&gt;&lt;MBP z:Ref="i54" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i59" i:type="P"&gt;&lt;MBN&gt;projectName&lt;/MBN&gt;&lt;MBP z:Ref="i54" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i60"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i56" /&gt;&lt;CPP z:Ref="i8" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;6&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i54" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;/Es&gt;&lt;Fs&gt;&lt;F&gt;&lt;Op&gt;Equals&lt;/Op&gt;&lt;Pn&gt;@event_eventID&lt;/Pn&gt;&lt;Py z:Ref="i37" /&gt;&lt;Ve&gt;2201&lt;/Ve&gt;&lt;/F&gt;&lt;/Fs&gt;&lt;Ps&gt;&lt;P z:Ref="i3" /&gt;&lt;P z:Ref="i4" /&gt;&lt;P z:Ref="i5" /&gt;&lt;P z:Ref="i6" /&gt;&lt;P z:Ref="i7" /&gt;&lt;P z:Ref="i8" /&gt;&lt;P z:Ref="i9" /&gt;&lt;P z:Ref="i10" /&gt;&lt;P z:Ref="i11" /&gt;&lt;P z:Ref="i12" /&gt;&lt;P z:Ref="i13" /&gt;&lt;P z:Ref="i14" /&gt;&lt;P z:Ref="i15" /&gt;&lt;P z:Ref="i16" /&gt;&lt;P z:Ref="i17" /&gt;&lt;P z:Ref="i20" /&gt;&lt;P z:Ref="i21" /&gt;&lt;P z:Ref="i22" /&gt;&lt;P z:Ref="i23" /&gt;&lt;P z:Ref="i24" /&gt;&lt;P z:Ref="i25" /&gt;&lt;P z:Ref="i26" /&gt;&lt;P z:Ref="i27" /&gt;&lt;P z:Ref="i28" /&gt;&lt;P z:Ref="i29" /&gt;&lt;P z:Ref="i30" /&gt;&lt;P z:Ref="i31" /&gt;&lt;P z:Ref="i32" /&gt;&lt;P z:Ref="i37" /&gt;&lt;P z:Ref="i38" /&gt;&lt;P z:Ref="i39" /&gt;&lt;P z:Ref="i40" /&gt;&lt;P z:Ref="i44" /&gt;&lt;P z:Ref="i45" /&gt;&lt;P z:Ref="i49" /&gt;&lt;P z:Ref="i50" /&gt;&lt;P z:Ref="i51" /&gt;&lt;P z:Ref="i52" /&gt;&lt;P z:Ref="i56" /&gt;&lt;P z:Ref="i57" /&gt;&lt;P z:Ref="i58" /&gt;&lt;P z:Ref="i59" /&gt;&lt;/Ps&gt;&lt;Rs&gt;&lt;R z:Ref="i41" /&gt;&lt;R z:Ref="i46" /&gt;&lt;R z:Ref="i53" /&gt;&lt;R z:Ref="i34" /&gt;&lt;R z:Ref="i60" /&gt;&lt;/Rs&gt;&lt;/DM&gt;</value>
+  </metadata>
+  <data name="sqlDataSource2.SelectCommand" xml:space="preserve">
+    <value>SELECT TOP 1
+	[match].[matchID], 
+	[match].[datetime], 
+	[match].[matchNo], 
+	[match].[eventID], 
+	[match].[phaseID], 
+	[match].[venueID], 
+	[match].[arena], 
+	[match].[contingentAID], 
+	[match].[contingentBID], 
+	[match].[teamAID1], 
+	[match].[teamAID2], 
+	[match].[teamAID3], 
+	[match].[teamBID1], 
+	[match].[teamBID2], 
+	[match].[teamBID3], 
+	[athlete].[athleteID], 
+	[athlete].[aFullName], 
+	[athlete].[aFamilyName], 
+	[athlete].[aGivenName], 
+	[athlete].[aPreferredName], 
+	[athlete].[aDOB], 
+	[athlete].[aContingentID], 
+	[athlete].[aIDType], 
+	[athlete].[aIDNumber], 
+	[athlete].[aHeight], 
+	[athlete].[aWeight], 
+	[athlete].[genderID], 
+	[athlete].[bibNo], 
+	[event].[eventID] AS 'eventeventID', 
+	[event].[eventName], 
+	[event].[eventCode], 
+	[event].[eventGender], 
+	[phase].[phaseID] AS 'phasephaseID', 
+	[phase].[phaseName], 
+	[contingent].[contingentID], 
+	[contingent].[contingentName], 
+	[contingent].[contingentCode], 
+	[contingent].[isActive], 
+	[venue].[venueID] AS 'venuevenueID', 
+	[venue].[venueName], 
+	[venue].[sportName], 
+	[venue].[projectName]
+FROM ((((([match]
+ LEFT JOIN [athlete]
+ ON [match].[teamAID1] = [athlete].[athleteID])
+ LEFT JOIN [event]
+ ON [match].[eventID] = [event].[eventID])
+ LEFT JOIN [phase]
+ ON [match].[phaseID] = [phase].[phaseID])
+ LEFT JOIN [contingent]
+ ON [athlete].[aContingentID] = [contingent].[contingentID])
+ LEFT JOIN [venue]
+ ON [match].[venueID] = [venue].[venueID])
+WHERE [event].[eventID] = @eventID</value>
+  </data>
+  <metadata name="sqlDataSource1.ParameterValues" xml:space="preserve">
+    <value>{"@eventID":"2201"}</value>
+  </metadata>
+  <metadata name="sqlDataSource1.QueryDesignerState" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DM xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Telerik.Reporting.Design.QueryDesigner"&gt;&lt;Es&gt;&lt;E z:Id="i1"&gt;&lt;MBN&gt;match&lt;/MBN&gt;&lt;MBP z:Id="i2" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i1" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i3" i:type="P"&gt;&lt;MBN&gt;matchID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i4" i:type="P"&gt;&lt;MBN&gt;datetime&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i5" i:type="P"&gt;&lt;MBN&gt;matchNo&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i6" i:type="P"&gt;&lt;MBN&gt;eventID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i7" i:type="P"&gt;&lt;MBN&gt;phaseID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i8" i:type="P"&gt;&lt;MBN&gt;venueID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i9" i:type="P"&gt;&lt;MBN&gt;arena&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i10" i:type="P"&gt;&lt;MBN&gt;contingentAID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i11" i:type="P"&gt;&lt;MBN&gt;contingentBID&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i12" i:type="P"&gt;&lt;MBN&gt;teamAID1&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i13" i:type="P"&gt;&lt;MBN&gt;teamAID2&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i14" i:type="P"&gt;&lt;MBN&gt;teamAID3&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i15" i:type="P"&gt;&lt;MBN&gt;teamBID1&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i16" i:type="P"&gt;&lt;MBN&gt;teamBID2&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i17" i:type="P"&gt;&lt;MBN&gt;teamBID3&lt;/MBN&gt;&lt;MBP z:Ref="i1" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER /&gt;&lt;/E&gt;&lt;E z:Id="i18"&gt;&lt;MBN&gt;athlete&lt;/MBN&gt;&lt;MBP z:Id="i19" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i18" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i20" i:type="P"&gt;&lt;MBN&gt;athleteID&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i21" i:type="P"&gt;&lt;MBN&gt;aFullName&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i22" i:type="P"&gt;&lt;MBN&gt;aFamilyName&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i23" i:type="P"&gt;&lt;MBN&gt;aGivenName&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i24" i:type="P"&gt;&lt;MBN&gt;aPreferredName&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i25" i:type="P"&gt;&lt;MBN&gt;aDOB&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i26" i:type="P"&gt;&lt;MBN&gt;aContingentID&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i27" i:type="P"&gt;&lt;MBN&gt;aIDType&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i28" i:type="P"&gt;&lt;MBN&gt;aIDNumber&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i29" i:type="P"&gt;&lt;MBN&gt;aHeight&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i30" i:type="P"&gt;&lt;MBN&gt;aWeight&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i31" i:type="P"&gt;&lt;MBN&gt;genderID&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i32" i:type="P"&gt;&lt;MBN&gt;bibNo&lt;/MBN&gt;&lt;MBP z:Ref="i18" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i33"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C i:nil="true" /&gt;&lt;/_items&gt;&lt;_size&gt;0&lt;/_size&gt;&lt;_version&gt;5&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i18" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;R z:Id="i34"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i20" /&gt;&lt;CPP z:Ref="i12" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;4&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i18" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;E z:Id="i35"&gt;&lt;MBN&gt;event&lt;/MBN&gt;&lt;MBP z:Id="i36" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i35" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i37" i:type="P"&gt;&lt;MBN&gt;eventID&lt;/MBN&gt;&lt;MBP z:Ref="i35" /&gt;&lt;PA&gt;eventeventID&lt;/PA&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i38" i:type="P"&gt;&lt;MBN&gt;eventName&lt;/MBN&gt;&lt;MBP z:Ref="i35" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i39" i:type="P"&gt;&lt;MBN&gt;eventCode&lt;/MBN&gt;&lt;MBP z:Ref="i35" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i40" i:type="P"&gt;&lt;MBN&gt;eventGender&lt;/MBN&gt;&lt;MBP z:Ref="i35" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i41"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i37" /&gt;&lt;CPP z:Ref="i6" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;3&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i35" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;E z:Id="i42"&gt;&lt;MBN&gt;phase&lt;/MBN&gt;&lt;MBP z:Id="i43" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i42" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i44" i:type="P"&gt;&lt;MBN&gt;phaseID&lt;/MBN&gt;&lt;MBP z:Ref="i42" /&gt;&lt;PA&gt;phasephaseID&lt;/PA&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i45" i:type="P"&gt;&lt;MBN&gt;phaseName&lt;/MBN&gt;&lt;MBP z:Ref="i42" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i46"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i44" /&gt;&lt;CPP z:Ref="i7" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;5&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i42" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i1" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;E z:Id="i47"&gt;&lt;MBN&gt;contingent&lt;/MBN&gt;&lt;MBP z:Id="i48" i:type="Namespace"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;MOC&gt;&lt;MB z:Ref="i47" /&gt;&lt;/MOC&gt;&lt;/MBP&gt;&lt;MOC&gt;&lt;MB z:Id="i49" i:type="P"&gt;&lt;MBN&gt;contingentID&lt;/MBN&gt;&lt;MBP z:Ref="i47" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i50" i:type="P"&gt;&lt;MBN&gt;contingentName&lt;/MBN&gt;&lt;MBP z:Ref="i47" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i51" i:type="P"&gt;&lt;MBN&gt;contingentCode&lt;/MBN&gt;&lt;MBP z:Ref="i47" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;MB z:Id="i52" i:type="P"&gt;&lt;MBN&gt;isActive&lt;/MBN&gt;&lt;MBP z:Ref="i47" /&gt;&lt;PO&gt;true&lt;/PO&gt;&lt;/MB&gt;&lt;/MOC&gt;&lt;ER&gt;&lt;R z:Id="i53"&gt;&lt;MBN&gt;&lt;/MBN&gt;&lt;RC&gt;&lt;_items&gt;&lt;C&gt;&lt;CCP z:Ref="i49" /&gt;&lt;CPP z:Ref="i26" /&gt;&lt;/C&gt;&lt;/_items&gt;&lt;_size&gt;1&lt;/_size&gt;&lt;_version&gt;5&lt;/_version&gt;&lt;/RC&gt;&lt;RCE z:Ref="i47" /&gt;&lt;RJT&gt;Left&lt;/RJT&gt;&lt;RPE z:Ref="i18" /&gt;&lt;/R&gt;&lt;/ER&gt;&lt;/E&gt;&lt;/Es&gt;&lt;Fs&gt;&lt;F&gt;&lt;Op&gt;Equals&lt;/Op&gt;&lt;Pn&gt;@event_eventID&lt;/Pn&gt;&lt;Py z:Ref="i37" /&gt;&lt;Ve&gt;2201&lt;/Ve&gt;&lt;/F&gt;&lt;/Fs&gt;&lt;Ps&gt;&lt;P z:Ref="i3" /&gt;&lt;P z:Ref="i4" /&gt;&lt;P z:Ref="i5" /&gt;&lt;P z:Ref="i6" /&gt;&lt;P z:Ref="i7" /&gt;&lt;P z:Ref="i8" /&gt;&lt;P z:Ref="i9" /&gt;&lt;P z:Ref="i10" /&gt;&lt;P z:Ref="i11" /&gt;&lt;P z:Ref="i12" /&gt;&lt;P z:Ref="i13" /&gt;&lt;P z:Ref="i14" /&gt;&lt;P z:Ref="i15" /&gt;&lt;P z:Ref="i16" /&gt;&lt;P z:Ref="i17" /&gt;&lt;P z:Ref="i20" /&gt;&lt;P z:Ref="i21" /&gt;&lt;P z:Ref="i22" /&gt;&lt;P z:Ref="i23" /&gt;&lt;P z:Ref="i24" /&gt;&lt;P z:Ref="i25" /&gt;&lt;P z:Ref="i26" /&gt;&lt;P z:Ref="i27" /&gt;&lt;P z:Ref="i28" /&gt;&lt;P z:Ref="i29" /&gt;&lt;P z:Ref="i30" /&gt;&lt;P z:Ref="i31" /&gt;&lt;P z:Ref="i32" /&gt;&lt;P z:Ref="i37" /&gt;&lt;P z:Ref="i38" /&gt;&lt;P z:Ref="i39" /&gt;&lt;P z:Ref="i40" /&gt;&lt;P z:Ref="i44" /&gt;&lt;P z:Ref="i45" /&gt;&lt;P z:Ref="i49" /&gt;&lt;P z:Ref="i50" /&gt;&lt;P z:Ref="i51" /&gt;&lt;P z:Ref="i52" /&gt;&lt;/Ps&gt;&lt;Rs&gt;&lt;R z:Ref="i41" /&gt;&lt;R z:Ref="i46" /&gt;&lt;R z:Ref="i53" /&gt;&lt;R z:Ref="i34" /&gt;&lt;/Rs&gt;&lt;/DM&gt;</value>
+  </metadata>
+  <data name="sqlDataSource1.SelectCommand" xml:space="preserve">
+    <value>SELECT
+  match.matchID
+ ,match.datetime
+ ,match.matchNo
+ ,match.eventID
+ ,match.phaseID
+ ,match.venueID
+ ,match.arena
+ ,match.contingentAID
+ ,match.contingentBID
+ ,match.teamAID1
+ ,match.teamAID2
+ ,match.teamAID3
+ ,match.teamBID1
+ ,match.teamBID2
+ ,match.teamBID3
+ ,athlete.athleteID
+ ,athlete.aFullName AS teamAID1AthleteFullName
+ ,athlete.aFamilyName
+ ,athlete.aGivenName
+ ,athlete.aPreferredName
+ ,athlete.aDOB
+ ,athlete.aContingentID
+ ,athlete.aIDType
+ ,athlete.aIDNumber
+ ,athlete.aHeight
+ ,athlete.aWeight
+ ,athlete.genderID
+ ,athlete.bibNo
+ ,event.eventID AS 'eventeventID'
+ ,event.eventName
+ ,event.eventCode
+ ,event.eventGender
+ ,phase.phaseID AS 'phasephaseID'
+ ,phase.phaseName
+ ,contingent.contingentID
+ ,contingent.contingentName
+ ,contingent.isActive
+ ,athlete_1.aContingentID
+ ,contingent_1.contingentName
+ ,contingent_1.contingentID
+ ,contingent.contingentCode AS teamAID1AthleteContingentCode
+ ,contingent_1.contingentCode AS teamBID1AthleteContingentCode
+ ,contingent_1.isActive
+ ,athlete_1.athleteID
+ ,athlete_1.aFullName AS teamBID1AthleteFullName
+ ,athlete_1.aFamilyName
+ ,athlete_1.aGivenName
+ ,athlete_1.aPreferredName
+ ,athlete_1.aDOB
+ ,athlete_1.aIDType
+ ,athlete_1.aIDNumber
+ ,athlete_1.aHeight
+ ,athlete_1.aWeight
+ ,athlete_1.genderID
+ ,athlete_1.bibNo
+FROM dbo.match
+LEFT OUTER JOIN dbo.athlete
+  ON match.teamAID1 = athlete.athleteID
+LEFT OUTER JOIN dbo.event
+  ON match.eventID = event.eventID
+LEFT OUTER JOIN dbo.phase
+  ON match.phaseID = phase.phaseID
+LEFT OUTER JOIN dbo.contingent
+  ON athlete.aContingentID = contingent.contingentID
+LEFT OUTER JOIN dbo.athlete athlete_1
+  ON match.teamBID1 = athlete_1.athleteID
+INNER JOIN dbo.contingent contingent_1
+  ON athlete_1.aContingentID = contingent_1.contingentID
+WHERE event.eventID = @eventID</value>
+  </data>
+</root>

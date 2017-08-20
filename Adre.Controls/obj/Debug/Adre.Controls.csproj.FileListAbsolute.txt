@@ -1,0 +1,10 @@
+C:\Mine\Repos\sea-muay\Adre.Controls\bin\Debug\Adre.Controls.dll
+C:\Mine\Repos\sea-muay\Adre.Controls\bin\Debug\Adre.Controls.pdb
+C:\Mine\Repos\sea-muay\Adre.Controls\obj\Debug\Adre.Controls.dll
+C:\Mine\Repos\sea-muay\Adre.Controls\obj\Debug\Adre.Controls.pdb
+C:\Mine\Repos\sea-muay\Adre.Controls\obj\Debug\Adre.Controls.csprojResolveAssemblyReference.cache
+C:\Mine\Repos\sea-karate\Adre.Controls\bin\Debug\Adre.Controls.dll
+C:\Mine\Repos\sea-karate\Adre.Controls\bin\Debug\Adre.Controls.pdb
+C:\Mine\Repos\sea-karate\Adre.Controls\obj\Debug\Adre.Controls.dll
+C:\Mine\Repos\sea-karate\Adre.Controls\obj\Debug\Adre.Controls.pdb
+C:\Mine\Repos\sea-karate\Adre.Controls\obj\Debug\Adre.Controls.csprojResolveAssemblyReference.cache

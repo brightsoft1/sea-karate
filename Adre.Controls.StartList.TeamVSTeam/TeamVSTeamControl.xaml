@@ -1,0 +1,101 @@
+﻿<UserControl
+    x:Class="Adre.Controls.StartList.TeamVSTeam.TeamVSTeamControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Adre.Controls.StartList.TeamVSTeam"
+    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+    d:DesignHeight="700"
+    d:DesignWidth="1280"
+    mc:Ignorable="d">
+
+    <Grid
+        Margin="10" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="1.5*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel
+            Grid.Row="0"
+            Margin="0, 0, 0, 5"
+            HorizontalAlignment="Right"
+            Orientation="Horizontal">
+            <Button
+                Margin="0,0,5,0"
+                Padding="15,5"
+                VerticalAlignment="Center"
+                Click="OnRefresh">
+                Refresh
+            </Button>
+            <Button
+                Margin="0,0,5,0"
+                Padding="15,5"
+                VerticalAlignment="Center"
+                Click="OnSaveClick">
+                Save
+            </Button>
+            <Button
+                Margin="0,0,5,0"
+                Padding="15,5"
+                VerticalAlignment="Center"
+                Click="OnAddClick">
+                Add
+            </Button>
+            <Button
+                Margin="0,0,5,0"
+                Padding="15,5"
+                Click="ButtonDeleteClick" >
+                Delete
+            </Button>
+            <Button
+                Margin="0,0,5,0"
+                Padding="15,5"
+                Click="ButtonDetailReport" IsEnabled="{Binding ButtonDetailReportEnabled}">
+                Detail Report
+            </Button>
+            <Button
+                Margin="0,0,0,0"
+                Padding="15,5"
+                Click="ButtonEventReport" IsEnabled="{Binding ButtonDetailReportEnabled}">
+                Event Report
+            </Button>
+        </StackPanel>
+
+        <telerik:RadGridView Grid.Row="1" FontSize="14" 
+                             SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding Items}" 
+                             AutoGenerateColumns="False" CanUserInsertRows="False" CanUserDeleteRows="False">
+            <telerik:RadGridView.Columns>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="No" Width="50" DataMemberBinding="{Binding No}" TextAlignment="Right"/>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="Event" Width="150" DataMemberBinding="{Binding SelectedEvent.Name}"/>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="Gender" Width="150" DataMemberBinding="{Binding SelectedEvent.Gender}"/>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="Series" Width="120" DataMemberBinding="{Binding SelectedPhase.Name}"/>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="Group" HeaderTextAlignment="Center" Width="80" DataMemberBinding="{Binding SelectedMatchGroup.Name}" TextAlignment="Center"/>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="Arena" Width="80" DataMemberBinding="{Binding Arena}" TextAlignment="Center"/>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="Date Time Start" Width="150" DataMemberBinding="{Binding DateTimeStart, StringFormat=\{0:dd/MM/yy hh:mm tt\}}"/>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="Red" HeaderTextAlignment="Center"  MinWidth="150" DataMemberBinding="{Binding ContingentA}" TextAlignment="Center"/>
+                <telerik:GridViewColumn IsReadOnly="True" Width="50">
+                    <telerik:GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">VS</Label>
+                        </DataTemplate>
+                    </telerik:GridViewColumn.CellTemplate>
+                </telerik:GridViewColumn>
+                <telerik:GridViewDataColumn IsReadOnly="True" Header="Blue" HeaderTextAlignment="Center" MinWidth="150" DataMemberBinding="{Binding ContingentB}" TextAlignment="Center"/>
+                <telerik:GridViewColumn IsReadOnly="True" Header="Remarks" >
+                    <telerik:GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="300" Text="{Binding Remarks}" />
+                        </DataTemplate>
+                    </telerik:GridViewColumn.CellTemplate>
+                </telerik:GridViewColumn>
+            </telerik:RadGridView.Columns>
+        </telerik:RadGridView>
+        <ScrollViewer Background="WhiteSmoke" Grid.Row="2" Visibility="{Binding ShowEditor}" VerticalScrollBarVisibility="Auto">
+            <local:Editor Margin="0,5,0,0" DataContext="{Binding SelectedItem}"   />
+        </ScrollViewer>
+    </Grid>
+</UserControl>
+

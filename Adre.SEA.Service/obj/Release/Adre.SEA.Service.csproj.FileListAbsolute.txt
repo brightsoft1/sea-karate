@@ -1,0 +1,17 @@
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\Adre.SEA.Service.dll.config
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\Adre.SEA.Service.dll
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\Adre.SEA.Service.pdb
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\Adre.Controls.dll
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\Adre.SEA.Database.dll
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\EntityFramework.dll
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\EntityFramework.SqlServer.dll
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\Adre.Controls.pdb
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\Adre.SEA.Database.pdb
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\Adre.SEA.Database.dll.config
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\EntityFramework.xml
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\bin\Release\EntityFramework.SqlServer.xml
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\obj\Release\Adre.SEA.Service.csprojResolveAssemblyReference.cache
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\obj\Release\Adre.SEA.Service.Properties.Resources.resources
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\obj\Release\Adre.SEA.Service.csproj.GenerateResource.Cache
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\obj\Release\Adre.SEA.Service.dll
+C:\Mine\Repos\sea-muay\Adre.SEA.Service\obj\Release\Adre.SEA.Service.pdb
